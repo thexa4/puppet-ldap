@@ -1,0 +1,11 @@
+dn: <%= @title %>
+<% @attributes.each_pair do |key, values|
+	if values.kind_of?(Array)
+		values.each do |entry|
+			%><%= key %>: <%= entry %>
+<%		end
+	else
+		%><%= key %>: <%= values %>
+<%	end
+end
+%>
