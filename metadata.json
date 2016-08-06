@@ -4,6 +4,7 @@
   "author": "Max Maton",
   "summary": "Configure ldap",
   "source": "https://github.com/thexa4/puppet-ldap",
+  "licence": "none",
   "dependencies": [
     {"name":"camptocamp/kmod","version_requirement":">= 0.0.1"}
   ],
