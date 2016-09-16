@@ -67,5 +67,5 @@ define ldap::object (
 
   } elsif $ensure == 'absent' {
     notice{ "Ensure absent not yet implemented for ${title}": }
-  } 
+  }
 }

@@ -1,10 +1,10 @@
 {
   "name": "thexa4-ldap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Max Maton",
   "summary": "Configure ldap",
   "source": "https://github.com/thexa4/puppet-ldap",
-  "license": "none",
+  "license": "MIT",
   "dependencies": [
     {"name":"camptocamp/kmod","version_requirement":">= 0.0.1"}
   ],
